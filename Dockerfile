@@ -1,4 +1,4 @@
-FROM odoo
+FROM odoo:12
 MAINTAINER tony4mail@gmail.com
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
 USER root
